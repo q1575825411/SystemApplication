@@ -29,4 +29,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(this, "confirm onClick", Toast.LENGTH_LONG).show();
         }
     }
+
 }
