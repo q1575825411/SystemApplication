@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:gravity="center">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Button
-        android:id="@+id/confirm"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:background="#00BCD4"
-        android:textSize="35sp"
-        android:text="confirm" />
+    <data>
 
-</LinearLayout>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:background="#00BCD4"
+            android:textSize="35sp"
+            android:text="confirm" />
+
+    </LinearLayout>
+</layout>
 
